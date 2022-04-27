@@ -1,0 +1,35 @@
+{
+  "name": "simple-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --port=8080 --host",
+    "build": "vite build",
+    "serve": "vite preview --port=8080 --host",
+    "build-css": "npx tailwindcss-cli@latest build ./src/styles.css -o ./public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "moment": "^2.29.1",
+    "primeicons": "^5.0.0",
+    "primevue": "^3.12.1",
+    "vite-plugin-require": "^0.0.8",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.4",
+    "sass": "^1.37.5",
+    "tailwindcss": "^2.1.4",
+    "vite": "^2.4.4",
+    "vite-plugin-pwa": "^0.10.0",
+    "vite-plugin-require-transform": "^1.0.3"
+  }
+}
